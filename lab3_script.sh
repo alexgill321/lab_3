@@ -17,4 +17,4 @@ grep -c -P '@' regex_practice.txt
 
 grep -o -P '303-[0-9]{3}-[0-9]{4}' regex_practice.txt
 
-grep -o -P 'geocities.com' regex_practice.txt >> email_results.txt
+grep  -P '@geocities.com' regex_practice.txt >> email_results.txt
